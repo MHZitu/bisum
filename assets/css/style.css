@@ -1,0 +1,132 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.announcement-bar {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: #00234D;
+}
+.announcement-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.announcement-link {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+.announcement-link:hover {
+    color: #FFFF;
+}
+.header-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo-wrraper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu-nevigation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #343434;
+  text-decoration: none;
+}
+.menu-item {
+  padding: 21px 14px;
+  position: relative;
+}
+.menu-link:hover {
+  opacity: 0.5;
+  color: #00234D;
+}
+.header-bottom {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.action-cart  {
+    font-size: 16px;
+    font-weight: 500;
+}
+.action-cart img {
+    padding-right: 10px;
+}
+.hero-media img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.hero-contant-container  {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+.button {
+    text-decoration: none;
+    border: 1px solid black;
+    color: #00234D;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 35px;
+    min-height: 44px;
+    transition: 0.03s;
+    display: inline-flex;
+    line-height: 1;
+}
+.button:hover {
+    color: #fff;
+    background-color: #00234D;
+}
+.hero-content {
+    position: relative;
+    top: 70%;
+}
+.hero-content .heading{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.hero-content .text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: normal;
+}
