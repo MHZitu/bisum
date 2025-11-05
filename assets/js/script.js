@@ -1,4 +1,4 @@
- var swiper = new Swiper(".hero-banner", {
+ var swiper = new Swiper(".mySwiper", {
       cssMode: true,
       navigation: {
         nextEl: ".swiper-button-next",
