@@ -439,3 +439,10 @@ img {
     background-color: #FF6B6C;
     border-radius: 50%;
 }
+.section-bottom-wrrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
