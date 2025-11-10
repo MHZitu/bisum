@@ -131,8 +131,9 @@ img {
     border-radius: 10px;
 }
 .button:hover {
-    color: #fff;
-    background-color: #00234D;
+    color: #00234D;
+    background-color: #FAF3ED;
+    border: #00234D 2px solid;
 }
 .trust-delevery {
     height: 100%;
@@ -175,10 +176,8 @@ img {
 }
 .banner-top-section {
     background-color: #BCC5E6;
-}
-.banner-top-section {
-    height: 50%;
-    width: 100%;
+    border-radius: 10px;
+
 }
 .banner-top-content>.heading {
     color: #00234D;
@@ -197,4 +196,246 @@ img {
 }
 .banner-top-content>.banner-top-view:hover {
     color: #fff;
+}
+.banner-top-media img {
+    height: 221.64px;
+    width: 164.03px;
+}
+.banner-top-media {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 60%;
+    bottom: 120px;
+}
+.banner-top-content {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 30%;
+    left: 50px;
+}
+.banner-top-section {
+    height: 50%;
+    width: 100%;
+}
+.banner-mid-section {
+    background-color: #93BAB5;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.banner-mid-content>.heading {
+    color: #00234D;
+    font-size: 33.2;
+    font-weight: 600;
+}
+.banner-mid-content>.text {
+    color: #00234D;
+    font-size: 15.62px;
+    font-weight: 400;
+}
+.banner-mid-content>.banner-mid-view {
+    color: #fff;
+    font-size: 13.67;
+    font-weight: 400;
+}
+.banner-mid-content>.banner-mid-view:hover {
+    color: #fff;
+}
+.banner-mid-media img {
+    height: 223.59px;
+    width: 171.84px;
+}
+.banner-mid-media {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 60%;
+    bottom: 120px;
+}
+.banner-mid-content {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 30%;
+    left: 50px;
+}
+.banner-mid-section {
+    height: 50%;
+    width: 100%;
+}
+.banner-bottom-section {
+    background-color: #FAF3ED;
+    height: 100%;
+    width: 100%;
+}
+.banner-bottom-content>.heading {
+    font-size: 33.02px;
+    font-weight: 600;
+    color: #00234D;
+}
+.banner-bottom-content>.text {
+    color: #00234D;
+    font-size: 15.62;
+    font-weight: 400;
+}
+.banner-bottom-content>.banner-bottom-view {
+    color: #00234D;
+    font-size: 13.67px;
+    font-weight: 400;
+}
+.banner-bottom-content>.banner-bottom-view:hover {
+    color: #00234D;
+}
+.banner-bottom-section>.banner-bottom-media img {
+    height: 427.66px;
+    width: 430.69px;
+    position: relative;
+    left: 160px;
+    top: 60px;
+}
+.banner-bottom-content {
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.featurd-item-srction {
+    padding-top: 120px;
+}
+.section-heading-wrrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-heading>.heading {
+    color: #00234D;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+.product-cird {
+    text-decoration: none;
+    color: #00234D;
+}
+.product-cird:hover {
+    color: #00234D;
+}
+.product-cird img {
+    max-height: 370px;
+    max-width: 260px;
+}
+.product-cird .product-cird-media {
+    background-color: #E9F0F3;
+    height: 375px;
+    width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bi-circle-1 {
+    background-color: #00234D;
+    border-radius: 50%;
+}
+.bi-circle-2 {
+    background-color: #93BAB5;
+    border-radius: 50%;
+}
+.bi-circle-3 {
+    background-color: #BCC5E6;
+    border-radius: 50%;
+}
+.bi-circle-4 {
+    background-color: #00234D;
+    border-radius: 50%;
+}
+.bi-circle-5 {
+    background-color: #93BAB5;
+    border-radius: 50%;
+}
+.bi-circle-6 {
+    background-color: #BCC5E6;
+    border-radius: 50%;
+}
+.product-cird-info .product-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.product-cird-info .product-cird-price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 5px;
+}
+.product-cird-info .product-cird-price del {
+    color: red;
+}
+.product-sale>.heading {
+    color: #fff;
+    background-color: #00234D;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 2px;
+    position: relative;
+    bottom: 314px;
+    right: 90px;
+}
+.product-sale>.text {
+    color: #fff;
+    background-color: #FF6B6C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 2px;
+    position: relative;
+    bottom: 315px;
+    right: 100px;
+}
+.bi-circle-7 {
+    background-color: #176EBF;
+    border-radius: 50%;
+}
+.bi-circle-8 {
+    background-color: #00234D;
+    border-radius: 50%;
+}
+.bi-circle-9 {
+    background-color:#BCC5E6;
+    border-radius: 50%;
+}
+.bi-circle-10 {
+    background-color: #176EBF;
+    border-radius: 50%;
+
+}
+.bi-circle-11 {
+    background-color: #00234D;
+    border-radius: 50%;
+}
+.bi-circle-12 {
+    background-color:#BCC5E6;
+    border-radius: 50%;
+}
+.bi-circle-13 {
+    background-color: #FF6B6C;
+    border-radius: 50%;
 }
