@@ -1198,7 +1198,6 @@ img {
   left: 318px;
   top: 42px;
 }
-
 .left-links a:hover {
   text-decoration: underline;
 }
@@ -1212,4 +1211,176 @@ img {
   position: relative;
   top: 42px;
   right: 190px;
+}
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 992px) {
+    .hero-banner {
+        bottom: 580px;
+        left: 50%;
+    }
+
+    .featured-card-section {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .product-cird .product-cird-media {
+        height: 345px;
+        width: 290px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-main {
+        padding: 30px 10px;
+    }
+
+    .menu-list {
+        gap: 20px;
+    }
+
+    .hero-media img,
+    .swiper-slide {
+        height: 550px;
+    }
+
+    .hero-content {
+        bottom: 350px;
+        left: 10%;
+    }
+
+    .hero-content .heading {
+        font-size: 48px;
+    }
+
+    .hero-content .text {
+        font-size: 20px;
+    }
+
+    .banner-top-media,
+    .banner-mid-media {
+        left: 70%;
+        bottom: 80px;
+    }
+
+    .banner-bottom-section img {
+        width: 350px;
+        left: 120px;
+        bottom: 80px;
+    }
+
+    .featured-card-furniture .featured-media-section,
+    .featured-card-decor .featured-media-section,
+    .featured-card-wallpeper .featured-media-section {
+        width: auto;
+        height: 380px;
+    }
+}
+@media (max-width: 767px) {
+
+    .announcement-text {
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .header-main {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .logo-wrraper, 
+    .menu-nevigation, 
+    .header-bottom {
+        justify-content: center;
+    }
+
+    .menu-list {
+        gap: 10px;
+    }
+
+    .menu-item {
+        padding: 10px 5px;
+    }
+
+    .hero-media img,
+    .swiper-slide {
+        height: 420px;
+    }
+
+    .hero-content {
+        bottom: 260px;
+        left: 0;
+        text-align: center;
+    }
+
+    .hero-content .heading {
+        font-size: 32px;
+    }
+
+    .hero-content .text {
+        font-size: 16px;
+    }
+
+    .button {
+        height: 45px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .trust-section {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .trust-delevery,
+    .trust-support,
+    .trust-secure {
+        justify-content: center;
+    }
+
+    .banner-top-content,
+    .banner-mid-content,
+    .banner-bottom-content {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .banner-top-media,
+    .banner-mid-media,
+    .banner-bottom-media {
+        display: none;
+    }
+
+    .featured-heading {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .featured-card-section {
+        padding-top: 40px;
+    }
+
+    .featured-card-furniture .featured-media-section,
+    .featured-card-decor .featured-media-section,
+    .featured-card-wallpeper .featured-media-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-cird .product-cird-media {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-cird .product-cird-media img {
+        left: 0;
+        top: 0;
+        width: 70%;
+    }
+
 }
